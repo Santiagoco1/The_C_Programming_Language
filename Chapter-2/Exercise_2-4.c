@@ -1,34 +1,9 @@
+/*
+    Write an alternative version of squeeze(s1,s2)that deletes each
+    character in s1 that matches any character in the strings2.  
+*/
+
 #include <stdio.h>
-
-#define MAXLINE 1000
-
-void squeeze(char s[], char p[]);
-void delete(char s[], char c); 
-
-int main() {
-
-    int i;
-    char s[MAXLINE], p[MAXLINE];
-
-    s[0] = 'a';
-    s[1] = 'b';
-    s[2] = 'c';
-    s[3] = '\n';
-    s[4] = '\0';
-
-    p[0] = 'a';
-    p[1] = 'q';
-    p[2] = 'r';
-    p[3] = '\n';
-    p[4] = '\0';
-
-    squeeze(s,p);
-
-    for(i = 0; i < 5; i++)
-        printf("%c", s[i]);
-
-    return 0;
-}
 
 void squeeze(char s[], char p[]) {
     int i, j;

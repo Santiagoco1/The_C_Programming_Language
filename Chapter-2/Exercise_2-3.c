@@ -6,31 +6,6 @@
 */
 
 #include <stdio.h>
-#include <ctype.h>
-
-#define MAXLINE 1000
-
-int htoi(char s[]);
-
-int main(){
-
-    int n;
-    char s[MAXLINE];
-
-    s[0] = '0';
-    s[1] = 'X';
-    s[2] = '2';
-    s[3] = '0';
-    s[4] = '1';
-    s[5] = '\n';
-    s[6] = '\0';
-
-    n = htoi(s);
-
-    printf("%d", n);
-
-    return 0;
-}
 
 int htoi(char s[]) {
 

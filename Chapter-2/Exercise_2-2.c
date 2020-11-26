@@ -3,7 +3,6 @@
     Write a loop equivalent to the for loop above without using && or ||. 
 */
 
-/*
 int main() {
 
     int isValid;
@@ -19,4 +18,3 @@ int main() {
             else isValid = 0;
         else isValid = 0;
     }
-*/
