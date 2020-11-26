@@ -2,6 +2,10 @@
 /*
     Write a loop equivalent to the for loop above without using && or ||. 
 */
+#include <stdio.h>
+
+int i, lim;
+char c, s[1000];
 
 int main() {
 
