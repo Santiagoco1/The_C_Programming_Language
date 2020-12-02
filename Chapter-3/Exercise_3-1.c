@@ -1,14 +1,5 @@
 #include <stdio.h>
 
-int binsearch(int x, int v[], int n);
-
-int main() {
-    int v[] = {1,2,3,4,5};
-    printf("%d", binsearch(6,v,5));
-
-    return 0;
-}
-
 int binsearch(int x, int v[], int n)  {        
     int low, high, mid;        
     low = 0;        
